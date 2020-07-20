@@ -13,14 +13,5 @@ bool respRatefun(float respRate){
 
 
 bool vitalsAreOk(float bpm, float spo2, float respRate) {
-/*  if(bpm < 70 || bpm > 150) {
-    return false;
-  } 
-  if(spo2 < 80) {
-    return false;
-  } 
-  if(respRate < 30 || respRate > 60) {
-    return false;
-  }*/
   return (bpmokfun(bpm)||spo2fun(spo2)||respRatefun(respRate));
 }
