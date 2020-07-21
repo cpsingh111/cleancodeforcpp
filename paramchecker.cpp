@@ -1,6 +1,9 @@
-
+bool iswithinrange(float arg, float min, float max){
+   return(arg<min||arg>max); 
+}
+  
 bool bpmokfun(float bpm){
-  return(bpm<70|| bpm>150);
+  return(iswithinrange(bpm, 70,150);
 }
 
 bool spo2fun(float spo2){
@@ -8,7 +11,7 @@ bool spo2fun(float spo2){
 }
 
 bool respRatefun(float respRate){
-  return(respRate<30|| respRate>60); 
+  return(iswithinrange(respRate, 30,60);
 }
 
 
