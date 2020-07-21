@@ -7,7 +7,7 @@ bool bpmokfun(float bpm){
 }
 
 bool spo2fun(float spo2){
-  return(spo2<80);
+    return(iswithinrange(spo2, 80,100));
 }
 
 bool respRatefun(float respRate){
