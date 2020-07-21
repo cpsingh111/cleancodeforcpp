@@ -3,7 +3,7 @@ bool iswithinrange(float arg, float min, float max){
 }
   
 bool bpmokfun(float bpm){
-  return(iswithinrange(bpm, 70,150);
+  return(iswithinrange(bpm, 70,150));
 }
 
 bool spo2fun(float spo2){
@@ -11,7 +11,7 @@ bool spo2fun(float spo2){
 }
 
 bool respRatefun(float respRate){
-  return(iswithinrange(respRate, 30,60);
+  return(iswithinrange(respRate, 30,60));
 }
 
 
