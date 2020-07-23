@@ -11,7 +11,7 @@ bool vitalsAreOk(float bpm, float spo2, float respRate) {
 bool vitalsAreOk(float *arr, int n) {
   
    static bool Vitalsok;
-   for(int i==; i<n, i++)
+   for(int i=0; i<n, i++)
    {
        vitalsok|= iswithinrange(arr[i]);
    }
