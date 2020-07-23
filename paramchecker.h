@@ -19,9 +19,9 @@ class bpm:public Vitals
  
  public: virtual bool iswithinrange(float bpm){
   return(bpm>upperbound&&bpm<lowerbound);
- };
+ }
 
-}
+};
 
 class spo2:public Vitals
 {
@@ -30,9 +30,9 @@ class spo2:public Vitals
  
  public: virtual bool iswithinrange(float spo2){
   return(spo2>upperbound&&spo2<lowerbound);
- };
+ }
  
-}
+};
  class respRate:public Vitals
 {
  float upperbound= 60;
@@ -40,6 +40,6 @@ class spo2:public Vitals
  
  public: virtual bool iswithinrange(float respRate){
   return(respRate>upperbound&&respRate<lowerbound);
- };
+ }
 
-}
+};
