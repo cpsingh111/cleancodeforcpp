@@ -2,12 +2,12 @@ bool vitalsAreOk(float *arr, int n);
 
 class Vitals
 {
- float upperbound=0;
+ float upperbound=100;
  float lowerbound=0;
 
  public: virtual bool iswithinrange(float vital){
  
- return false;
+  return(vital>upperbound&&vital<lowebound);
  }
  
 };
